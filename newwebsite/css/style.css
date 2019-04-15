@@ -1,3 +1,150 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    animation: fadein 2s;
+}
+
+body,
+input,
+textarea {
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.input {
+    padding-left: .25rem;
+}
+
+.button {
+    padding: 2px;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    color: black;
+    background: #e2e2e2;
+}
+
+.button:hover {
+    background: grey;
+    transition: all 1s ease;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.icon-link {
+    color: grey;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.icon-link:hover,
+.icon-link:active {
+    color: black;
+    transition: all 1s ease;
+}
+
+.social-container {
+    height: 0;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.navbar {
+    display: flex;
+    align-self: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar>a {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.navbar>a:hover,
+.navbar>a:active {
+    color: black;
+    transition: all 1s ease;
+}
+
+.content {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 100%;
+}
+
+.updates {
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.copyright {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+}
+
+.small-text {
+    font-size: 12px;
+    color: grey;
+}
+
+.hr {
+    display: block;
+    min-height: 3px;
+    background: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.image-text-left-right {
+    display: flex;
+}
+
+.image-text-left-right p {
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/*
 html, body {
   margin:0;
   padding:0;
@@ -198,3 +345,4 @@ body{
   padding-left: 50px;
   margin-left: 50px;
 }
+*/
