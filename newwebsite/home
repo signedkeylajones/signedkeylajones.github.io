@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Website  Home</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Signed Keyla Jones</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+  </head>
+  </body>
+    <div class="social-container">
+      <div class="social">
+        <!-- Search https://fontawesome.com/ for more icons. If the icon doesn't work change "fab" to "fas" or vice-versa -->
+        <a href="https://google.com" class="icon-link fab fa-facebook-square" target="_blank"></a>
+        <a href="https://google.com" class="icon-link fab fa-youtube" target="_blank"></a>
+        <a href="https://google.com" class="icon-link fab fa-instagram" target="_blank"></a>
+        <a href="https://google.com" class="icon-link fab fa-pinterest" target="_blank"></a>
+        <a href="https://google.com" class="icon-link fas fa-envelope" target="_blank"></a>
+      </div>
+    </div>
+<br>
+    <img src="https://i.imgur.com/olcgYlC.jpg" class="logo" width="750px" href="/home.html">
+    <div class="navbar">
+      <a href="/home.html" class="active">home</a>
+      <a href="/about.html">about me</a>
+      <a href="/butterbee.html">butterbee</a>
+      <a href="/novels.html">novels</a>
+      <a href="/music.html">music</a>
+      <a href="/contact.html">contact</a>
+      <a href="/store.html">store</a>
+    </div>
+    <div class="content">
+      <img src="https://i.imgur.com/7PZ1xsm.jpg" height="350px" width="800px" class="ph1">
+      <p>ABOUT ME Bacon ipsum dolor amet boudin shank t-bone porchetta pork doner cupim corned beef chicken. Landjaeger jerky shank, pork belly brisket buffalo burgdoggen tongue filet mignon sirloin. Beef ribs ham swine pastrami doner brisket buffalo shank pork chop spare ribs beef ham hock chicken. Tenderloin burgdoggen chuck, boudin rump sausage filet mignon tail. Pork venison biltong ball tip beef ribs. Tail bresaola venison, jerky short ribs tenderloin leberkas cow hamburger chuck filet mignon burgdoggen. Shankle jerky kevin burgdoggen shoulder buffalo boudin tail prosciutto, pastrami chicken beef ribs ball tip meatball.</p>
+      <img src="https://i.imgur.com/f9i8rLQ.jpg" height="4px" width="800px" class="phsmall"> <!--thin line-->
+      
+      <!--Butterbeeline-->
+      <div class="imgtext">
+    <img src="https://i.imgur.com/7PZ1xsm.jpg" height="250px" width="300px" align="left" >
+    <p class="textleft">Butterbee:  hi Salami ham hock sausage flank alcatra meatball ham   drumstick picanha strip steak buffalo porchetta. Ribeye short ribs turkey, pig cupim salami leberkas corned beef pork belly venison shoulder. Pork shank short ribs, buffalo jerky meatball spare ribs. Venison swine short ribs, bresaola chicken tail turkey ham hock. Jowl pork loin sausage short loin ground round burgdoggen fatback corned beef meatball shoulder leberkas beef ribs. Ham hock ham pork tail strip steak meatball pancetta fatback corned beef buffalo cupim.</p>
+      </div>
+      
+
+      <!--Novels-->
+    <img src="https://i.imgur.com/7PZ1xsm.jpg" height="4px" width="800px" class="phsmall"> <!--thin line-->
+            <div class="imgtext">
+    <img src="https://i.imgur.com/7PZ1xsm.jpg" height="250px" width="300px" align="right">
+    <p class="textleft">NOVELS:  hi Salami ham hock sausage flank alcatra meatball ham   drumstick picanha strip steak buffalo porchetta. Ribeye short ribs turkey, pig cupim salami leberkas corned beef pork belly venison shoulder. Pork shank short ribs, buffalo jerky meatball spare ribs. Venison swine short ribs, bresaola chicken tail turkey ham hock. Jowl pork loin sausage short loin ground round burgdoggen fatback corned beef meatball shoulder leberkas beef ribs. Ham hock ham pork tail strip steak meatball pancetta fatback corned beef buffalo cupim.</p>
+      </div>
+
+      
+      <!--Music-->
+    <img src="https://i.imgur.com/7PZ1xsm.jpg" height="4px" width="800px" class="phsmall"> <!--thin line-->
+            <div class="imgtext">
+    <img src="https://i.imgur.com/7PZ1xsm.jpg" height="250px" width="300px" align="left">
+    <p class="textleft">MUSIC:  hi Salami ham hock sausage flank alcatra meatball ham   drumstick picanha strip steak buffalo porchetta. Ribeye short ribs turkey, pig cupim salami leberkas corned beef pork belly venison shoulder. Pork shank short ribs, buffalo jerky meatball spare ribs. Venison swine short ribs, bresaola chicken tail turkey ham hock. Jowl pork loin sausage short loin ground round burgdoggen fatback corned beef meatball shoulder leberkas beef ribs. Ham hock ham pork tail strip steak meatball pancetta fatback corned beef buffalo cupim.</p>
+      </div>
+     
+ <!--Footer-->
+    <img src="https://i.imgur.com/7PZ1xsm.jpg" height="4px" width="800px" class="phsmall"> <!--thin line-->
+
+  
+ <form class="footerinput">
+    <div class="footersub">
+        <p>Want the Latest News First?</p>
+    </div>
+    Subscribe: <input type="text" name="email"  value="*Email Address" class="inputcolor" required> <input type="submit" value="Submit">
+ </form>
+    <div class="footeremail">
+      <p>Business Inquiries:</p>
+      <a href="mailto:signedkeylajones@gmail.com">signedkeylajones@gmail.com</a>
+    </div>
+   <div class="footer">
+      Copyright © 2019 Signed Keyla Jones. All rights reserved.
+   </div>
+  </div>
+</div>
+  <body>
+</html>
+  
+  
+
+</body>
+
+</html>
