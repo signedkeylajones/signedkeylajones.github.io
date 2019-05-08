@@ -20,6 +20,11 @@ textarea {
     font-size: 18px;
 }
 
+.flexbox img {
+  width: 100%;
+  height: auto;
+}
+
 .input {
     padding-left: .25rem;
 }
